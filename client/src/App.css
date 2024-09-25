@@ -1,0 +1,31 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: 2px solid;
+  max-width: 100%;
+}
+
+.addressSendFrom input {
+  margin-inline: 0.5rem;
+}
+.addressSendFrom button {
+  margin-top: 1rem;
+  outline: 1px solid;
+}
+.addressRetriveFrom button {
+  margin-top: 1rem;
+  outline: 1px solid;
+}
+@media screen and (max-width: 600px) {
+  .main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid;
+  }
+  .addressRetriveFrom input {
+    margin-inline: 0.5rem;
+  }
+}

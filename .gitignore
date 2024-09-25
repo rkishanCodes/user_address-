@@ -1,0 +1,32 @@
+# Node modules
+/node_modules
+/client/node_modules
+/server/node_modules
+
+# Build outputs
+/client/dist
+/server/build
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+
+# Environment variables
+/.env
+/client/.env
+/server/.env
+
+# Vite cache
+/client/.vite
+/client/.cache
+
+# IDE specific files
+/.vscode
+/.idea
+.DS_Store
+
+# Miscellaneous
+*.tgz
